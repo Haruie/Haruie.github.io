@@ -5,6 +5,8 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
 }
 
 .container {
