@@ -8,9 +8,8 @@ function growButton() {
     var yesBtn = document.getElementById('yesBtn');
     yesBtn.style.transform = `scale(${growthFactor})`;
     growthFactor += 0.2;
-}
 
-function hideNoButton() {
+    // Hide the "No" button
     var noBtn = document.getElementById('noBtn');
     noBtn.style.display = 'none';
 }
