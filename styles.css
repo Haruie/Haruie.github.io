@@ -24,8 +24,15 @@ button {
     font-size: 16px;
     margin: 0 10px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-#noBtn {
+button:hover {
+    background-color: #2196F3; /* Blue color on hover */
+    color: #FF0000; /* Red text color on hover */
+    transform: scale(1.1);
+}
+
+#yesBtn {
     transition: transform 0.3s ease-in-out;
 }
