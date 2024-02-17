@@ -10,11 +10,6 @@ function growButton() {
     growthFactor += 0.2;
 }
 
-function hideNoButton() {
-    var noBtn = document.getElementById('noBtn');
-    noBtn.style.display = 'none';
-}
-
 function startFlowerRain() {
     var flowerRain = document.getElementById('flowerRain');
     
