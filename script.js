@@ -9,3 +9,8 @@ function growButton() {
     yesBtn.style.transform = `scale(${growthFactor})`;
     growthFactor += 0.2;
 }
+
+function hideNoButton() {
+    var noBtn = document.getElementById('noBtn');
+    noBtn.style.display = 'none';
+}
