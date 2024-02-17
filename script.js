@@ -1,10 +1,13 @@
+let growthFactor = 1.2;
+
 function showMessage(message) {
     document.getElementById('message').innerText = message;
 }
 
 function growButton(buttonId) {
     var button = document.getElementById(buttonId);
-    button.style.transform = 'scale(1.2)';
+    button.style.transform = `scale(${growthFactor})`;
+    growthFactor += 0.2;
     setTimeout(function() {
         button.style.transform = 'scale(1)';
     }, 300);
