@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #000; /* Black background color */
     color: #fff; /* White text color */
@@ -16,6 +16,9 @@ body {
 .title {
     color: #ff4081; /* Pink color */
     font-size: 24px;
+}
+
+.top-title {
     margin-top: 30px;
 }
 
@@ -43,9 +46,12 @@ button:hover {
 
 .love-message {
     font-size: 18px;
-    margin-top: 80px; /* Adjusted margin */
     font-family: 'Pacifico', cursive; /* Fancy font */
     color: #ff69b4; /* Fancy color */
+}
+
+.bottom-message {
+    margin-top: 20vh; /* Adjusted margin */
 }
 
 .flower-rain {
